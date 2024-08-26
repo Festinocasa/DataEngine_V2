@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataEngine.Models.TestConfig\DataEngine.Models.TestConfig.csproj" />
+    <ProjectReference Include="..\DataEngine.Protocal\DataEngine.Protocal.csproj" />
+    <ProjectReference Include="..\DataEngine\DataEngine.csproj" />
+  </ItemGroup>
+
+</Project>
